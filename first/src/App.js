@@ -9,6 +9,7 @@ import Test from "./component/test";
 import Active from "./component/Active";
 import Another from "./component/anotherActive";
 import Navbar from './component/navbar';
+import Tbl from './component/tbl';
 import Footer from './component/footer';
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 
@@ -42,6 +43,9 @@ function App() {
           </Route>  
           <Route path="/anotherActive">
             <Another  />
+          </Route>   
+          <Route path="/tbl">
+            <Tbl />
           </Route>        
         </Switch>
 
